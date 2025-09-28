@@ -8,7 +8,7 @@ app = Flask(__name__, static_folder='static', static_url_path='')
 CORS(app)
 
 GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent'
-API_KEY = 'AIzaSyDeVDcQ9JkP9tellmRx9yVjqTD4rO42mtY'
+API_KEY = 'AIzaSyAfcYrhIQFGFFy5MA1gzcGdk4dsR_8NBeg'
 
 @app.route('/')
 def home():
